@@ -8,7 +8,7 @@ import ImgDesigne from "../../Shared/imgeDesinge/imgDesigne";
 
 const Intro = () => {
     return (
-        <div className="flex justify-between mt-10 px-4">
+        <div className="flex justify-between mt-10 px-4 items-center">
             <div className=" space-y-2">
                 <h1 className="text-3xl  font-bold">Hi I am</h1>
                 <h1 className="text-4xl font-bold text-primary">Muhammad Umair</h1>
@@ -17,8 +17,9 @@ const Intro = () => {
                 <Button sx={{ backgroundColor: '#FD6F00', color: "white" }} variant="container">Hire Me</Button>
             </div>
             <div>
+                {/* import reuseable component */}
                 <ImgDesigne muamir={muamir} />
-                
+
                 <div className="flex justify-center gap-3 mt-2">
                     <FaFacebook className="size-8"></FaFacebook>
                     <FaTwitter className="size-8" />
