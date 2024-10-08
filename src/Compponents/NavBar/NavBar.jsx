@@ -2,7 +2,7 @@ import { AppBar, Button, Tab, Tabs, Toolbar } from '@mui/material';
 import headerIcon from '../../assets/Subtract.svg'
 const NavBar = () => {
     return (
-        <div className='mt-4'>
+        <div className='mt-2'>
             <AppBar position='static' sx={{background:"white"}} elevation={0}>
                 <Toolbar>
                     <img src={headerIcon} alt="" />
