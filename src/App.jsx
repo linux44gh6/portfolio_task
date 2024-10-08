@@ -1,15 +1,12 @@
 
 
-
-import './App.css'
-
+import NavBar from './Compponents/NavBar/NavBar'
 function App() {
-
-
   return (
-    <>
-      <h1>hello react</h1>
-    </>
+    <div className='max-w-7xl mx-auto'>
+    <NavBar></NavBar>
+      
+    </div>
   )
 }
 
