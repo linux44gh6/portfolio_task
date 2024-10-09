@@ -1,10 +1,9 @@
 import muhir2 from '../../assets/muahir2nd.png'
 import ImgDesigne from '../../Shared/imgeDesinge/imgDesigne';
 import ProgressBar from "@ramonak/react-progress-bar";
-import InputRange from 'react-input-range';
 const AboutSection = () => {
     return (
-        <div className='flex items-center justify-between gap-10 mt-10'>
+        <div className='flex items-center justify-between gap-10 mt-10 px-4'>
             <div>
         <ImgDesigne muamir={muhir2}/>
             </div>

@@ -1,4 +1,4 @@
-
+/* eslint-disable react/prop-types */
 const ImgDesigne = ({muamir}) => {
     return (
         <div className="relative w-[438px] h-[468px] rounded-full mx-auto">
