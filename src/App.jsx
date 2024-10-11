@@ -6,8 +6,8 @@ import Intro from './Compponents/IntroSection/Intro'
 import NavBar from './Compponents/NavBar/NavBar'
 import ProjectSection from './Compponents/ProjectSection/ProjectSection'
 import ServiceSection from './Compponents/ServiceSection/ServiceSection'
+import Testomonials from './Compponents/Testomonials/Testomonials'
 import TogetherDesign from './Compponents/TogetherDesign/TogetherDesign'
-import Slider from './Shared/Slider/Slider'
 function App() {
   return (
     <div className='max-w-[1300px] mx-auto'>
@@ -16,7 +16,7 @@ function App() {
     <AboutSection/>
     <ServiceSection/>
     <ProjectSection/>
-    <Slider/>
+    <Testomonials/>
     <TogetherDesign/>
     <Footer/>
     </div>
