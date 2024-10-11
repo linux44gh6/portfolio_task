@@ -1,6 +1,7 @@
 
 
 import AboutSection from './Compponents/AboutSection/AboutSection'
+import Footer from './Compponents/Footer/Footer'
 import Intro from './Compponents/IntroSection/Intro'
 import NavBar from './Compponents/NavBar/NavBar'
 import ProjectSection from './Compponents/ProjectSection/ProjectSection'
@@ -17,6 +18,7 @@ function App() {
     <ProjectSection/>
     <Slider/>
     <TogetherDesign/>
+    <Footer/>
     </div>
   )
 }
