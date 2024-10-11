@@ -9,7 +9,9 @@ const ProjectSection = () => {
             description={"Lorem ipsum dolor sit amet consectetur. Mollis erat duis aliquam mauris est risus lectus. Phasellus consequat urna tellus"}
             />
 
-            <CustomTabs/>
+          <div className="mt-10">
+          <CustomTabs/>
+          </div>
         </div>
     );
 };
