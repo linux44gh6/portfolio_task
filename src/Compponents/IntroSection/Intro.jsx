@@ -8,7 +8,7 @@ import ImgDesigne from "../../Shared/imgeDesinge/imgDesigne";
 
 const Intro = () => {
     return (
-        <div className="flex justify-between mt-10 px-4 items-center">
+        <div className="flex flex-col-reverse lg:flex-row justify-between mt-10 px-4 items-center">
             <div className=" space-y-2">
                 <h1 className="text-3xl  font-bold">Hi I am</h1>
                 <h1 className="text-4xl font-bold text-primary">Muhammad Umair</h1>
@@ -21,10 +21,10 @@ const Intro = () => {
                 <ImgDesigne muamir={muamir} />
 
                 <div className="flex justify-center gap-3 mt-2">
-                    <FaFacebook className="size-8"></FaFacebook>
-                    <FaTwitter className="size-8" />
-                    <FaInstagram className="size-8" />
-                    <FaLinkedin className="size-8" />
+                    <FaFacebook className="size-6"></FaFacebook>
+                    <FaTwitter className="size-6" />
+                    <FaInstagram className="size-6" />
+                    <FaLinkedin className="size-6" />
 
                 </div>
             </div>

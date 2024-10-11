@@ -12,7 +12,7 @@ const ServiceSection = () => {
             description={"Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium"}
             />
 
-            <div className="flex justify-between mt-10">
+            <div className="flex flex-col md:flex-row lg:flex-row justify-between mt-10">
             <Service
             img={service1}
             title={'UI/UX'}

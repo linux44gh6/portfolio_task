@@ -3,7 +3,7 @@ import ImgDesigne from '../../Shared/imgeDesinge/imgDesigne';
 import ProgressBar from "@ramonak/react-progress-bar";
 const AboutSection = () => {
     return (
-        <div className='flex items-center justify-between gap-10 mt-10 px-4'>
+        <div className='flex flex-col lg:flex-row items-center justify-between gap-10 mt-10 px-4'>
             <div>
         <ImgDesigne muamir={muhir2}/>
             </div>
