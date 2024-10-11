@@ -11,13 +11,13 @@ const AboutSection = () => {
                 <h1 className='text-5xl font-bold'>About Me </h1>
                 <p className='text-lg'>Lorem ipsum dolor sit amet consectetur. Tristique amet sed massa nibh lectus netus in. Aliquet donec morbi convallis pretium. Turpis tempus pharetra</p>
                <div className='space-y-5'>
-               <h1 className='text-xl font-bold'>UX</h1>
+               <h1 className='text-xl font-bold pb-1'>UX</h1>
                 <ProgressBar bgColor='#FD6F00' completed={90} customLabel=' ' />
-                <h1 className='text-xl font-bold'>Website design</h1>
+                <h1 className='text-xl font-bold pb-1'>Website design</h1>
                 <ProgressBar bgColor='#FD6F00' completed={85} customLabel=' ' />
-                <h1 className='text-xl font-bold'>App design</h1>
+                <h1 className='text-xl font-bold pb-1'>App design</h1>
                 <ProgressBar bgColor='#FD6F00' completed={90} customLabel=' ' />
-                <h1 className='text-xl font-bold'>Graphic design</h1>
+                <h1 className='text-xl font-bold pb-1'>Graphic design</h1>
                 <ProgressBar bgColor='#FD6F00' completed={80} customLabel=' ' />
 
               
